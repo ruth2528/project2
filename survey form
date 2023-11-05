@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body{
+    background-color:rgb(219, 92, 138);
+    color:black;
+    text-align:center;
+   font-family:poppins;
+   
+    }
+    .title{
+      font-size:50px;
+      color:black;
+      text-align:center;
+      font-family:"poppins";
+      font-weight:900px;
+    }
+    form{
+    background-color:white;
+    text-align: left;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:50px;
+    padding-bottom:50px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    width:800px;
+   
+  }
+.survey{
+  display:flex;
+line-height:40px;
+    justify-content:center;
+    align-items:center;
+    
+}
+.name{
+  padding:4px;
+  font-size:15px;
+  line-height:10px;
+}
+.com .name{
+  padding:5px;
+  width:700px;
+  height:50px;
+}
+.option {
+  margin-top:20px;
+  margin-left:-5px;
+  border-color:gray;
+  padding:5px;
+  font-size:15px;
+  width:190px;
+  border-radius:2px;
+ 
+}
+
+    
+  </style>
+  <head>
+    
+
+  </head>
+  <body>
+    <h1 class="title">Survey form</h1>
+    <div class="survey">
+    <form class="survey-form" >
+      <div >
+        <label for="name" id="label-name">
+         1.Name<br>
+        </label>
+<input class="name" type="text" placeholder="Enter your name">
+      </div>
+<div>
+  <label for="email" id="label-email">
+   2.Email<br>
+  </label>
+  <input class="name" type="text" placeholder="Enter your email">
+</div>
+<div>
+<label for="age" id="label-age">
+3.Age<br>
+</label>
+<input class="name" type="text" placeholder="Enter your age">
+</div>
+
+<div class="name">
+  <label for="role" id="label">
+  <br>4.Which option best describes you?<br>
+
+  </label>
+ <select class="option" name="role" id="role">
+  <option value="Student">Student</option>
+  <option value="Teacher">Teacher</option>
+  <option value="Professional">Professional</option>
+  <option value="other">Other</option>
+ </select> 
+</div>
+ <div>
+  <label for="experience" label="label-experience">
+  5.Do you have any past experience in coding?<br>
+  </label>
+  <input type="radio" name="radio1">yes
+  <input type="radio" name="radio1">no
+  
+ </div>
+
+ <div class>
+  <label>
+  6.Languages and Framework you are intrested in learning <br>
+  </label>
+
+  <input type="checkbox" name="input">C<br></input>
+  <input type="checkbox" name="input">C++<br></input>
+  <input type="checkbox" name="input">C#<br></input>
+  <input type="checkbox" name="input">Java<br></input>
+  <input type="checkbox" name="input">Python<br></input>
+  <input type="checkbox" name="input">Django<br></input>
+  <input type="checkbox" name="input">Javascript<br></input>
+  <input type="checkbox" name="input">Angular<br></input>
+  <input type="checkbox" name="input">Node.Js<br></input>
+  <input type="checkbox" name="input">React<br></input>
+
+
+ </div>
+ <div class="com">
+  <label for="comments" id="label-comments">
+  7.Any additional comments?<br>
+  </label>
+  <input class="name" type="text" id="comments">
+ </div>
+    </form>
+  </div>
+  </body>
+</html>
